@@ -1,4 +1,5 @@
 export const questions = [
+  // const는 상수 선언
   {
     number: '01',
     question: '곧 크리스마스! 회사에서 크리스마스 파티 스텝을 모집한다는데?',
@@ -7,6 +8,7 @@ export const questions = [
       { text: '재밌겠다!<br>○○한테 같이 지원하자고 해야지~', value: 'e' }
     ]
   },
+  // 첫번째 배열의 인자
   {
     number: '02',
     question: '해외 출장이 잡혔다!<br>전날 잠들기 전 나는?',
