@@ -58,7 +58,7 @@ function nextQuestion(choiceNumber){
 function showResultPage(){
   // 쿼리 스트링을 만들어 결과페이지 호출
   // http://127.0.0.1:5500/result.html?mbti=isfj
-  location.href = './results.html?mbti=' + mbti
+  location.href = './result.html?mbti=' + mbti
 }
 
 
